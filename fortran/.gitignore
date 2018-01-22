@@ -1,0 +1,4 @@
+*.o
+*.mod
+*~
+fftw_test_3d_multithread
