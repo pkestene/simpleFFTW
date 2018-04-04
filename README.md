@@ -31,7 +31,8 @@ gcc -o fftw_test_3d_mt_double fftw_test_3d_multithread.c -I$FFTW_INC_DIR -L$FFTW
 
 ### MPI
 
-```mpicc -o fftw_test_3d_mpi_double fftw_test_3d_mpi.c -I$FFTW_INC_DIR -L$FFTW_LIB_DIR -lfftw3_mpi -lfftw3
+```bash
+mpicc -o fftw_test_3d_mpi_double fftw_test_3d_mpi.c -I$FFTW_INC_DIR -L$FFTW_LIB_DIR -lfftw3_mpi -lfftw3
 ```
 
 ## Fortran FFTW API
